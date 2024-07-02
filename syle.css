@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(227, 227, 227);
+}
+.container{
+    height: 485px;
+    width: 360px;
+    margin:50% auto;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 0px black;
+}
+.display{
+    height: 120px;
+    text-align: center;
+}
+#displayResult{
+    text-align: end;  
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    padding-right: 21px;
+    background-color: rgba(107, 252, 201, 0.895);
+    border: 0px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+h2{
+    display: inline-block;
+}
+.red{
+    height:60px;
+    width: 60px;
+    font-size: 30px;
+    font-weight:bold;
+    border-radius: 100%;  
+    border: 0px;
+    margin: 2px;
+    color: white;
+    background-color: red;
+
+
+}
+.row input{
+ height:60px;
+ width: 60px;
+ border-radius:100%;
+ font-size: 30px;
+ font-weight:bold;
+ margin: 3px;
+ border: 0px;
+ color: rgb(116, 121, 125);
+   
+}
+input[name=green]{
+ background-color: green;
+ color: white;
+}
+
+
+
